@@ -5,15 +5,15 @@ namespace HackerRankRevisit.DataStructures.Arrays.Arrays_DS
 {
     /*
          Problem: https://www.hackerrank.com/challenges/arrays-ds/problem
-         .NET Version: 8.0
-         IDE : Visual Studio Community 2022
-         Thoughts (Key points in algorithm):
+         IDE: Visual Studio Community 2022
+         Framework: .NET v8.0
+
+         Algorithm Overview:
          - Traverse the input array from tail and store each element being traversed into a new array.
          - Return the new array.
 
 
-         Gotchas:
-          <None>
+         Gotchas: <None>
 
          Time Complexity:  O(n) //we need to traverse the entire array
          Space Complexity: O(n) //we need an additional array having original array's size
